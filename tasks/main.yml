@@ -1,0 +1,7 @@
+---
+
+- name: Include docker-related tasks
+  include_tasks: run_in_docker.yml
+  when: smartctl_exporter_run_in_docker
+
+

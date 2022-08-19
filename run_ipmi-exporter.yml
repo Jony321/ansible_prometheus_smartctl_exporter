@@ -1,0 +1,6 @@
+- name: Ensure prometheus_smartctl_exporter
+  hosts: all
+  become: true
+
+  roles:
+    - ansible_prometheus_smartctl_exporter
