@@ -15,14 +15,5 @@ Ansible 2.8+
 
 You can see all vars in defaults/main.yml vars file.
 
-## Example Playbook
 
-```yaml
-- name: Ensure prometheus_ipmi_exporter
-  hosts: prometheus_ipmi_exporters
-  remote_user: root
-
-  roles:
-    - prometheus_ipmi_exporter
-  
 ```
