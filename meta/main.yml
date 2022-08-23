@@ -1,9 +1,9 @@
 ---
 galaxy_info:
-  author: Andrew Bogdanov
-  description: Ansible role to deploy Prometheus smartctl_ exporter
+  author: Stan Bogatkin
+  description: Ansible role to deploy Prometheus blackbox exporter
   company: Personal project
-  role_name: prometheus_smartctl__exporter
+  role_name: prometheus_blackbox_exporter
   namespace: sorrowless
 
   license: Apache
