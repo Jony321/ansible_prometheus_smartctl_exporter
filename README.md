@@ -1,7 +1,7 @@
 ## AndrewGodGivens /ansible_prometheus_ipmi_exporter 
 ============
 
-An Ansible role which installs and configures Prometheus ipmi_exporter on Linux
+An Ansible role which installs and configures Prometheus smartctl_exporter on Linux
 
 ============
 
