@@ -1,10 +1,9 @@
 ---
 - name: Start docker smartctl exporter container
-  community.docker.docker_compose:
+  community.docker.docker_compose_v2:
     state: present
     project_name: prometheus_smartctl_exporter
     definition:
-      version: '2'
       services:
         smartctl_exporter:
           image: "{{ smartctl_exporter_docker_image }}"
@@ -17,5 +16,5 @@
           privileged: true
       networks:
         default:
-          external:
-            name: "{{ smartctl_exporter_docker_network_name }}"
+          external: true
+          name: "{{ smartctl_exporter_docker_network_name }}"
